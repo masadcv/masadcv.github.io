@@ -1,0 +1,27 @@
+<div class="news">
+    <h2><a href="{{"news" | prepend: site.baseurl }}">Latest News</a></h2>
+    {% if site.news  %}
+      <table>
+      <td colspan="2" ><hr style="border-top: 1px"/></td>
+      {% assign news = site.news | reverse %}
+      {% for item in news limit: site.preview_news_limit %}
+        <tr>
+          <td class="date" nowrap="nowrap">{{ item.date | date: "%b %-d, %Y" }}</td>
+          <td class="announcement" style="padding-left: 20px;">
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
+        </tr>
+        <td colspan="2" ><hr style="border-top: 1px"/></td>
+      {% endfor %}
+      <tr>
+        <td colspan="2" ><a href="{{"news" | prepend: site.baseurl }}">See more</a></td>
+      </tr>
+      </table>
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+  </div>

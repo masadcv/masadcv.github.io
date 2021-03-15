@@ -1,0 +1,31 @@
+<section id="experience" class="cvSection">
+    <!--<h2 class="sub-header">Publications</h2>-->
+    <ul class="pt-list publication-list">
+    {% for type in site.data.teaching %}
+        <li>
+            <h3>{{ type.type }}</h3>
+            <ul>
+            {% for items in type.items %}
+                <li>
+                    <h2>
+                        {% if items.title %}
+                            {{ items.title }}
+                        {% endif %}
+                    </h2>
+                    <h5>
+                        {% if items.organization %}
+                            {{ items.organization }}
+                        {% endif %}
+                    </h5>
+                    <p class="experience">
+                        {% if items.duration %}
+                            {{ items.duration }}
+                        {% endif %}
+                    </p>
+                </li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,440 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003 David J. Grant <dgrant@ieee.org> http://www.davidgrant.ca
+% (c) 2007 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
+% (c) 2009-2012 Derek R. Hildreth <derek@derekhildreth.com> http://www.derekhildreth.com 
+%This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+% GENERAL NOTE:  There may be some notes specific to myself.  If you're only interested in my LaTeX source or it doesn't make sense, please disregard it.
+% http://derekhildreth.com/portfolio/Resume/Derek_Hildreth_Resume.pdf
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=mygreylink     % can put red here to better visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.30}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+%General Resume Tips
+%   No periods!  Technically, nothing in this document is a full sentence.
+%   Use parallelism by ending key words with the same thing,  i.e. "Coordinated; Designed; Communicated".
+%   More tips on bottom of this LaTeX document.
+%-----------------------------------------------------------
+
+\begin{document}
+
+\newcommand{\mywebheader}{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{http://seevisionc.blogspot.co.uk}{\LARGE Muhammad Asad}} & \href{mailto:masadcv@gmail.com}{masadcv@gmail.com}\\
+	%{\footnotesize \texttt{20, Shandy Street, London, E1 4LX, UK}} & \href{http://www.student.city.ac.uk/~abfc148/}{www.student.city.ac.uk/\textasciitilde abfc148/} \\
+	{\footnotesize \texttt{Department of Computer Science, City University London, EC1V 0HB, UK}} & \href{http://www.student.city.ac.uk/~abfc148/}{www.student.city.ac.uk/\textasciitilde abfc148/} \\
+%	{\footnotesize  \texttt{Mobile: +447907778310}} & \href{http://seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}\\
+	{\footnotesize  } & \href{http://seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}\\
+%	{} & \href{http://www.youtube.com/xs2asad}{www.youtube.com/xs2asad}\\
+%	{\footnotesize \texttt{Date of Birth: 03-Dec-1987}}&{}\\
+	\end{tabular*}
+\\
+\vspace{0.1in}}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+%\begin{description}
+%\item[Career Objectives:]{\footnotesize Highly motivated and enthusiastic individual seeking opportunity to work with strong confidence of realizing innovative ideas, passion to gain more knowledge and accomplish higher goals in the field of Computer Vision.}
+%\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+	\begin{itemize}
+	\item
+			\ressubheading{City University London}{London, UK}{\textbf{PhD research student in Visual Computing;}}{Feb. 2013 -- Present}
+				{ \footnotesize
+				\begin{itemize}					
+					\resitem{Research Topic: Hand Pose and Orientation Estimation for Egocentric Devices } 
+%					\begin{itemize}
+%							\resitem{Publication on hand orientation regression for interaction with Augmented Reality}
+							
+%						\end{itemize}
+						
+				\end{itemize}
+				}
+		\item
+			\ressubheading{The University of Sheffield}{Sheffield, UK}{\textbf{Master of Science in Computer Vision Engineering;}}{Sep. 2011 -- Sep. 2012}
+				{ \footnotesize
+				\begin{itemize}					
+%%%%%%%%%%%%%%%%%%%%%%
+%%%      Key Courses %
+
+%					\resitem{\href{http://sheffield.ac.uk/eee/pgt/compvision/structure}{Key Courses:} Machine Learning and Adaptive Intelligence, Video Processing and Analysis,
+%\href{http://eee.dept.shef.ac.uk/admissions/modules/eee6082.pdf}{Computational Vision}, 
+%\href{http://eee.dept.shef.ac.uk/admissions/modules/eee6081.pdf}{Visual Information Engineering}, 
+%\href{http://eee.dept.shef.ac.uk/admissions/modules/eee6491.pdf}{System Architecture Design}, 
+%\href{http://sheffield.ac.uk/eee/pgt/compvision/eee6085}{Selected Topics in Computer Vision},
+%\href{http://www.shef.ac.uk/rtpwebsite/unitDetail/2878.html}{Brain Imaging},
+%Foundations of Object Oriented Programming}
+%To date result is 71.6 \%. Expected result: Distinction with overall percentage greater than 70
+					\resitem{Result: 74.9\%; \textbf{MSc with Distinction}}
+					\resitem{Dissertation Project: Hand Gesture-Based Computer User Interface Using Microsoft Kinect} 
+%						\begin{itemize}
+%							\resitem{A real-time recognition algorithm for dynamic hand gestures using 3D depth data from Kinect sensor}
+%							\resitem{Addresses challenging problems like low resolution, quantization noise and segmentation of hand region}
+%						\end{itemize}
+				\end{itemize}
+				}
+
+\item
+			\ressubheading{National University of Computer and Emerging Sciences (NUCES)}{Islamabad, Pakistan}{\textbf{Bachelor of Science in Telecom. Engineering; GPA: 3.45/ 4.00}}{Sep. 2006 -- Jun. 2010}
+				{ \footnotesize
+				\begin{itemize}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%      Key Courses %
+
+%					\resitem{Key Courses: Probability and Random Process, Linear Algebra and Differential Equations, Programming for Engineers, Data Structures and Analysis, Signals and Systems, Digital Signal Processing, Micro Controller Interface and Programming, Operating Systems, Computer Logic Design, Computer Organization and Architecture, Technical Report Writing, Communication Skills}
+					\resitem{Final Project: Guidance System for Visually Impaired using Digital Image Processing} 
+						\begin{itemize}
+%							\resitem{Algorithm design using a robotic platform}
+							\resitem{Real-time smartphone application for Android to assist visually impaired persons} 
+							%\resitem{Publication related to this project in IEEE conference}
+						\end{itemize}
+				\end{itemize}
+				}
+
+\item
+			\ressubheading{Beaconhouse School System}{Islamabad, Pakistan}{GCE Advanced Level; 2 B's and 1 C}{Sep. 2004 -- Jun. 2006}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Key Courses: Physics, Chemistry, Maths}
+					
+				\end{itemize}
+				}
+	\end{itemize} 
+% End Education list
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%      Publications %
+\resheading{Publications}
+\begin{itemize}
+	\item{\footnotesize M.Asad, G.Slabaugh, ``Learning Marginalization through Regression for Hand Orientation Inference'', Computer Vision and Pattern Recognition (CVPR) Second Workshop on Observing and Understanding Hands in Action (HANDS) 2016 \textbf{(Best Paper Award Winner)}}
+	\item{\footnotesize M.Asad, G.Yang, G.Slabaugh, ``Supervised Partial Volume Effect Unmixing for Brain Tumor Characterization using Multi-voxel MR Spectroscopic Imaging'', IEEE International Symposium on Biomedical Imaging (ISBI) 2016}
+	\item{\footnotesize S.M.M.R.Al Arif, M.Asad, K.Knapp, M.Gundry, G.Slabaugh, ``Cervical Vertebral Corner Detection using Haar-like Features and Modified Hough Forest'', International Conference on Image Processing Theory, Tools and Applications (IPTA) 2015.}
+	\item{\footnotesize M.Asad, E.Gentet, R.Basaru, G.Slabaugh ``Generating a 3D Hand Model from Frontal Color and Range Scans'', to appear, the International Conference on Image Processing (ICIP) 2015.}
+	\item{\footnotesize S.M.M.R.Al Arif, M.Asad, K.Knapp, M.Gundry, A.Appelboam, A.Reuben, G.Slabaugh, ``Hough Forest-based Corner Detection for Cervical Spine Radiographs'', Medical Image Understanding and Analysis (MIUA) 2015. }
+	\item{\footnotesize M.Asad, G.Slabaugh ``Hand Orientation Regression using Random Forest for Augmented Reality'', International Conference on Augmented and Virtual Reality (AVR'14),  September 17-20, 2014, Italy }
+	\item{\footnotesize M.Asad, C.Abhayaratne ``Kinect Depth Stream Pre Processing for Hand Gesture Recognition'',IEEE International Conference on Image Processing (ICIP'13), September 15-18, 2013, Australia }
+	\item{\footnotesize M.Asad, W.Ikram ``Smartphone based Guidance System for Visually Impaired Person'', IEEE International Conference on Image Processing Theory, Tools and Applications (IPTA'12),  October 15-18, 2012, Turkey }
+	%\item{\footnotesize M.Asad, C.Abhayaratne ``Real-time traffic flow estimation'' in pipeline }
+	
+\end{itemize} 
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%     End Publication list
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%     Relevant Experience %
+\resheading{Relevant Experience}
+	\begin{itemize}
+	\item 
+			\ressubheading{Learning Enhancement and Development,	City University London}{London, UK}{Learning Object Designer}{May. 2015 -- Aug. 2015}
+			{ \footnotesize
+				\begin{itemize}
+					\resitem{Designing an online learning module - getting feedback from supervisor and improving existing learning modules.}				
+				\end{itemize}
+			}
+				
+	\item 
+			\ressubheading{School of Informatics, City University London}{London, UK}{Matlab Programmer}{Nov. 2014 -- Apr. 2015}
+			{ \footnotesize
+				\begin{itemize}
+					\resitem{Matlab programming, Signal and Image processing, software testing and documentation.}				
+				\end{itemize}
+			}
+
+%		\item 
+%			\ressubheading{Visual Information Engineering Lab, The University of Sheffield}{Sheffield, UK}{Research Dissertation Thesis Student}{Jan. 2012 -- Sept. 2012}
+%				{ \footnotesize
+%				\begin{itemize}
+%					\resitem{Worked on my MSc thesis project with an allocated office space in this engineering laboratory environment, working full days and managing my own time and workload.}				
+%				\end{itemize}
+%				}
+%		\item 
+%			\ressubheading{Robotics Society, NUCES}{Islamabad, Pakistan}{President Robotics Society}{Jan. 2010 -- June. 2010}
+%				{ \footnotesize
+%				\begin{itemize}
+%					\resitem{Experience of leading a team and developing good working relations with other fellow colleagues}
+%					\resitem{Organized society meetings and open discussions to exchange views on existing problems and propose new ideas}				
+%					\resitem{Introduced resources on simple autonomous robot designs for students to implement, improve and learn from}
+%				\end{itemize}
+%				}
+	\end{itemize}  
+	% End Relevant Experience list
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%    Technical  Skills 	%
+\resheading{Technical Skills}
+	\begin{description}
+		\item[Technologies:] { \footnotesize C/C++, Matlab, Python, Java, FPGA (Verilog and Vhdl)}				\item[Testing, Documentation and Bug Reporting:]{\footnotesize JIRA, Confluence, ServiceNow}
+		\item[Computer Vision Libraries:]{ \footnotesize OpenCV (PC/Android), OpenNI (Kinect)}	
+		\item[Hardware:]{\footnotesize Kinect Sensor, BeagleBoard, Spartan 3, Arduino Uno} 
+\item[Technical Documentation:] Ability to communicate using technical reports detailing guidance documentation, performance analysis, technical discussions and proposed ideas. Familiar with using \LaTeX.
+%		\item[Additional Information]{\footnotesize 
+%		\begin{itemize}
+%			\begin{itemize}
+%				\resitem {Writing about different computer vision topics at: \href{seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}}
+%				\resitem{kjhkhkjhkhjkhkhjkj}
+%			\end{itemize}
+%		\end{itemize}}
+		
+	\end{description}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%     End Relevant Skills List%
+	%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%
+	%%%      Awards and Achievements %
+	\resheading{Awards and Achievements}
+	\begin{description}
+		\item[Scholarships:]{\footnotesize Awarded departmental \textbf{Merit Scholarship} at The University of Sheffield and \textbf{Fee Waiver} at City University London}
+		%\item[Medals:]{\footnotesize Awarded Gold and Bronze medal for academic positions in First and Second Semester of bachelor's degree}
+		%\item[Honours:]{\footnotesize Honoured with enrolment in Dean's List of Honour at NUCES}
+		%\item[Awards:]{\footnotesize First Runner Up at IEEE Made from Scrap (2010), LUMS, Pakistan}
+		%\item[Workshop:]{\footnotesize Attended and presented a project in workshop on Managing Congestion Through Information and Communications Technology (2012), Manchester, UK}
+		\item[Game Hackathon:]{\footnotesize Developed a game to help accelerate cancer research at a three day hackathon event (2013), \textbf{Google Campus}, London, UK}
+		\item[Reviewer]{\footnotesize of manuscripts for:}
+		\begin{itemize}
+			\resitem { \footnotesize IEEE Transactions on Systems, Man, and Cybernetics, Part B: Kinect and Its Applications}
+			\resitem { \footnotesize SPIE: Journal of Electronic Imaging (\href{http://spie.org/x868.xml}{JEI})}
+		\end{itemize}
+		%	\item[Contribution:]{\footnotesize Author of \href{http://seevisionc.blogspot.co.uk/2012/06/androidwifi-alternative-to-connectify.html}{AndroidWifi}, a set of batch scripts enabling users to share their internet with mobile devices using Microsoft Virtual Wifi Miniport}
+		%\item[Member:]{\footnotesize of \href{http://ml.soi.city.ac.uk/}{Machine Learning Group} at City University London}
+		%		\item[Additional Information]{\footnotesize 
+		%		\begin{itemize}
+		%			\begin{itemize}
+		%				\resitem {Writing about different computer vision topics at: \href{seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}}
+		%				\resitem{kjhkhkjhkhjkhkhjkj}
+		%			\end{itemize}
+		%		\end{itemize}}
+		
+	\end{description}
+	%%%%%%%%%%%%%%%%%%%%%%
+	%%%      End Awards and Achievements %
+	
+%%%%%%%%%%%%%%%%%%%%%%
+%%%     Other Experience %
+\resheading{Other Experience}
+	\begin{itemize}
+			\item 
+			\ressubheading{Learning Enhancement and Development, City University London}{London, UK}{Project Support Officer (LEaD) }{Feb. 2014 -- Sep. 2014}
+			{ \footnotesize
+				\begin{itemize}
+					\resitem{providing support for content migration, IT service management system, review and management of educational technology equipment, compiling minutes and actions from meetings.}				
+				\end{itemize}
+			}
+			\item 
+			\ressubheading{Learning Development Centre (LDC), City University London}{London, UK}{IT Project Officer (Content Migration)}{Aug. 2013 -- Sep. 2013}
+			{ \footnotesize
+				\begin{itemize}
+					\resitem{prepared batch CSV for Kaltura, migrated videos using semi-automatic batch upload process, coordinated different stages of migration with staff, updated and managed the migrated content in moodle modules and reported recommendations and bugs.}				
+				\end{itemize}
+			}
+%			\item 
+%			\ressubheading{Learning Development Centre (LDC), City University London}{London, UK}{IT Project Officer}{Apr. 2013 -- Jul. 2013}
+%			{ \footnotesize
+%				\begin{itemize}
+%					\resitem{prepared guidance documents for moodle 2.4, tested and reported recommendations and bugs and assisted in screen capture/ video tutorials on using new moodle 2.4 interface.}				
+%				\end{itemize}
+%			}
+%			\item
+%			\ressubheading{Author of AndroidWifi (\href{http://goo.gl/JKwHwE}{http://goo.gl/JKwHwE})}
+%				{\footnotesize
+%				\begin{itemize}
+%					\resitem{ Set of batch scripts that can be used on Windows 7 to share your wifi connection with any mobile device }
+%		
+%		\resitem{\textbf{voted second best alternative to Connectify} at: \href{http://alternativeto.net/software/connectify/}{http://alternativeto.net/software/connectify/}}
+%		\end{itemize}
+%		}
+				\item 
+			\ressubheading{Author of OpenCVKinect}{}{\href{https://github.com/masad801/OpenCVKinect}{https://github.com/masad801/OpenCVKinect}}{}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{C++ Wrapper class for acquiring Kinect data streams in OpenCV}
+				\end{itemize}
+				}
+			
+		\item 
+			\ressubheading{Author of AndroidWifi}{}{\href{https://github.com/masad801/OpenCVKinect}{http://seevisionc.blogspot.co.uk}}{Link to page: \href{http://goo.gl/JKwHwE}{http://goo.gl/JKwHwE}}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{a set of batch scripts enabling users to share their internet with mobile devices using Microsoft Virtual Wifi Miniport}
+					
+					%Organized robotics competition both at National Level and University Level}
+					%\resitem{ \textbf{voted second best alternative to Connectify} at: \href{http://alternativeto.net/software/connectify/}{http://alternativeto.net/software/connectify/}} 
+				\end{itemize}
+				}
+%			\item 
+%			\ressubheading{NASCON 2010, NUCES}{Islamabad, Pakistan}{Head Robotics Competitions}{Mar. 2010 -- Apr. 2010}
+%				{ \footnotesize
+%				\begin{itemize}
+%					\resitem{planning, organizing and setting up two different robotics competitions, by guiding a team of students}
+%					%Organized robotics competition both at National Level and University Level}
+%					\resitem{ Experience in managing work within a given timeline} 
+%					\resitem{ Dealing with participants from 20 different national teams and resolving the issues they had}				
+%				\end{itemize}
+%				}
+%		\item 
+%			\ressubheading{NUCES}{Islamabad, Pakistan}{Teaching Assistant}{Jan. 2009 -- Jun. 2009}
+%				{ \footnotesize
+%				\begin{itemize}
+%					\resitem{Liaising with students, assignment marking, designing challenging quizzes and giving tutorial lectures}
+%					\resitem{Enhanced my practical and inter-person communication skills }				
+%				\end{itemize}
+%				}
+	\end{itemize}  
+	
+% End Other Experience list
+%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+
+%%%    Other  Skills 	%
+%\resheading{Other Skills}
+%	\begin{description}
+%		\item[Operating Systems:] { \footnotesize Windows, Linux, Virtualization of Linux guest using VMWare, MSDOS}
+%%		\item[Compiliers/editors:]{\footnotesize MS Visual Studio, Eclipse IDE, Qt, Vi/Vim, Gedit, Xilinx ISE, GCC};
+%		\item[Interpersonal Skills:] { \footnotesize Experience working with people belonging to diverse cultural backgrounds and different nationalities. I am fairly adept to work well both independently and being a part of a multi-cultural team.}
+%		\item[Communication Skills:] { \footnotesize Fluent in English for both oral and written communication.}
+%		\item[Blogging:]{\footnotesize Writing about different computer vision topics, OpenCV libraries and projects at: \href{seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}}
+%		
+%%		\item[Additional Information]{\footnotesize 
+%%		\begin{itemize}
+%%			\begin{itemize}
+%%				\resitem {Writing about different computer vision topics at: \href{seevisionc.blogspot.co.uk}{seevisionc.blogspot.co.uk}}
+%%				\resitem{kjhkhkjhkhjkhkhjkj}
+%%			\end{itemize}
+%%		\end{itemize}}
+%		
+%	\end{description}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%     End Other Skills List%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%      Course Projects MS %
+%\resheading{Course Projects (Masters)}
+%	\begin{description}
+%		\item[Motion Estimators:] {\footnotesize Comparison of full-search and three step search motion estimators}
+%		\item[Real-time Traffic Flow Estimation:] {\footnotesize Design and Implementation on \href{http://beagleboard.org/}{BeagleBoard} using OpenCV libraries}
+%		\item[Performance Assessment of Edge Detectors:] {\footnotesize Based on trials on self generated edge and non-edge ground truth patches}
+%		\item[Face Recognition:] {\footnotesize Performance and accuracy comparison of Sift features for face recognition}
+%		\item[Compression Artefacts Reduction:] {\footnotesize Comparison of Local and Non-local filters for artefacts reduction}
+%	%	\item[Advanced Encryption Standard:] {\footnotesize Low area implementation on FPGA (Spartan 3) }
+%		\item[Hand Written Digits Recognition] {\footnotesize Single perceptron based training and testing for recognition}		
+%	\end{description} 
+
+%\resheading{Course Projects (Bachelors)}
+%	\begin{description}
+%		\item[Android Application for Blind:] {\footnotesize Design and implementation of smartphone based guidance system for visually impaired using OpenCV and Android SDK}
+	%	\item[iPhone Online Presence:] {\footnotesize Social networking application with interface including profile, status and picture update}
+	%	\item[Line Follower Robot:] {\footnotesize Design and Implementation using simple logic gates and sensors}
+%		\item[Multi-Process Downloader:] {\footnotesize Implementation for parallel downloading and sorting of data}
+		%\item[Intelligent Traffic Control System:] {\footnotesize Design and Implementation using simple logic gates and light sensors}
+		%\item[Library Management System:] {\footnotesize GUI based system with different privileges for different classes of users}		
+	%	\item[FPGA Digital Clock:] {\footnotesize Verilog implementation on Spartan 3}
+	%	\item[File Transfer Application:] {\footnotesize Implemented using socket server and client}
+%	\end{description} 
+%%%%%%%%%%%%%%%%%%%%%%
+%%%    End of Course Projects MS %
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Would have completed this if I had not had all projects listed under "Skills".  
+% Still a good idea.  See if I can fit it in somewhere...  Otherwise, just print it out and bring it to an interview if needed.
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Only Print References If Requested!  Maybe even put it in it's own page.  Must have same heading as first page.
+%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\mywebheader
+\resheading{References}
+\begin{description}
+
+
+\item[To be provided on request]{}
+%	\begin{center}
+%		\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}  l l l }
+%			Dr. Greg Slabaugh & Dr. Ling Shao & Dr. Charith Abhayaratne\\
+%			Senior Lecturer/Supervisor & Senior Lecturer & Lecturer/Project Supervisor\\ 
+%			\vspace{10pt} 
+%			City University London & The University of Sheffield & The University of Sheffield\\ 
+%		    United Kingdom & United Kingdom & United Kingdom \\
+%			+44(0)20 7040 8416 & +44(0)114 222 5841 & +44(0)114 222 5893\\
+%			\href{mailto: gregory.slabaugh.1@city.ac.uk}{gregory.slabaugh.1@city.ac.uk}  & \href{mailto: ling.shao@sheffield.ac.uk}{ling.shao@sheffield.ac.uk} & \href{mailto: c.abhayaratne@sheffield.ac.uk}{c.abhayaratne@sheffield.ac.uk}\\
+%		\end{tabular*}
+%	\end{center}
+%
+%		
+\end{description}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% GENERAL RESUME NOTES %
+%%%%%%%%%%%%%%%%%%%%%%%%
+Need to brush up on the skills section?  Here are some really good ideas:
+
+- Communication: The ability to express and interpret ideas and convey knowledge. 
+Skills like speaking effectively, writing concisely, listening attentively, expressing ideas, 
+reporting information, editing, interviewing, and facilitating group discussion. 
+ 
+- Research and Planning: The ability to search for specific knowledge and formulate a 
+program for a definite course of action. Skills like forecasting, predicting, identifying 
+issues, finding alternatives, gathering information, solving problems, setting goals, 
+extracting information, and developing strategies. 
+ 
+- Human Relations: The ability to apply interpersonal skills to resolve conflict, relate to 
+people, and help people. Skills like providing support for others, listening, delegating 
+with respect, representing others, asserting, developing rapport, and perceiving 
+feelings. 
+ 
+- Management, Organization, Leadership: The ability to supervise others and guide 
+individuals and groups towards the completion of tasks. Skills like managing groups, 
+selling ideas, making decisions, managing conflict, coordinating tasks, teaching, 
+enlisting help. 
+
+Source: 
+http://www.squawkfox.com/2009/03/08/6-action-words-that-make-your-resume-rock/
+
+Other Resources: 
+http://www.tvmier.com/Resume_Education.html
+

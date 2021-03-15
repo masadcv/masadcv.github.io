@@ -1,0 +1,147 @@
+--- 
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad"
+      date: "1st Dec 2020"
+      event: "London Pytorch Meetup, London, UK"
+      event_url: "https://www.meetup.com/London-PyTorch-Meetup/"
+      note: ~
+      pdf: /papers/talks/MAsad_PytorchMeetupPresentationDec2020.pdf
+      title: "Probabilistic Regression using Convolutional Neural Networks"
+  year: 2020
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad"
+      date: "7th July 2017"
+      event: "3 Minute Thesis Competition, City, University of London, UK"
+      event_url: ~
+      note: "Given the current technologies, if Terminator was to exist today he would have a very hard time understanding a lot of things in his surrounding environment. Specifically, he would not be able to understand how we use our hands for complex communication and as manipulation tools for interacting with the world around us. To make matters worse, the shape and size of a human hand varies quite rapidly across different people, while each person might have their own style variations of doing the same hand-based interaction. From a machine learning perspective, this makes the problem really hard. My research addresses this by proposing the use of multiple expert learners that are based on the idea that a skilled worker can excel at only a single skill. Similarly, the expert learners are trained on subsets of data, which enables them to excel only for that sub-domain. My research looks at how such models can be trained and proposes ways to incorporate several expert learners to work collectively to improve overall accuracy and robustness of a model. My research has an impact on future hand-based human-computer interfaces, where we would be able to interact with a virtual world similar to how we interact with the real world. Most important of all, it will enable future Terminator robots to recognize and understand our instructions based on our hand movements."
+      pdf: /papers/talks/MAsad_3MTThesis2017.pdf
+      title: "Learning to high five: making computers understand our hands!"
+    - 
+      authors: "Muhammad Asad"
+      date: "15th May 2017"
+      event: "Pint of Science, London, UK"
+      event_url: "https://pintofscience.co.uk/event/machine-learning-how-does-technology-see-us"
+      note: "Recent years have seen significant advancements in Computer Vision algorithms, where computers can look at image and video data to understand a given scene. Be it face recognition or smart cars in real-world scenarios, computers are beginning to excel and, in some cases, surpass their human counterparts. This talk introduces the audience to the concept of machine learning, which enables computers to learn from known examples of a given task and apply their learned knowledge to a new, but similar, scenario."
+      pdf: /papers/talks/LearningToSeePintOfScience2017.pdf
+      title: "Learning to see: how machines learn to understand images?"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: "28th April 2017"
+      event: "Data Natives, London, UK"
+      event_url: "http://datanatives.top/"
+      note: ~
+      pdf: ~
+      title: "SPORE: Staged Probabilistic Regression for Hand Orientation and Pose Inference"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: "5th February 2017"
+      event: "Computer Vision Group Team Meetings"
+      event_url: "http://computervision.city.ac.uk/"
+      note: ~
+      pdf: ~
+      title: "Regression including Advanced Non-linear Methods"
+  year: 2017
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "The 2nd Workshop on Observing and Understanding Hands in Action, CVPR, Las Vegas, USA"
+      event_url: "http://www.iis.ee.ic.ac.uk/ComputerVision/hand/Hands2016/#program"
+      note: ~
+      pdf: ~
+      title: "Learning Marginalization through Regression for Hand Orientation Inference"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "6th Annual Postgraduate Research Symposium, City University London"
+      event_url: "http://www.city.ac.uk/about/education/lead/events/rs"
+      note: ~
+      pdf: ~
+      title: "Hand Pose and Orientation Inference for Egocentric Augmented Reality"
+  year: 2016
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad, Enguerrand Gentet, Rilwan Remilekun Basaru, Greg Slabaugh"
+      date: ~
+      event: "International Conference on Image Processing (ICIP), Quebec, Canada"
+      event_url: "http://icip2015.org/"
+      note: "Poster presentation"
+      pdf: ~
+      title: "Generating a 3D Hand Model from Frontal Color and Range Scans"
+    - 
+      authors: "Greg Slabaugh, Muhammad Asad"
+      date: ~
+      event: "Images of Research Exhibition, City University London"
+      event_url: "http://www.city.ac.uk/__data/assets/pdf_file/0015/300408/Images-of-Research-Booklet.pdf"
+      note: "Poster Display"
+      pdf: ~
+      title: "Optical Biopsy of Brain Tumours"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "BMVA Meeting, London"
+      event_url: "https://www.eventbrite.co.uk/e/a-bmva-meeting-vision-for-human-computer-interaction-and-virtual-reality-systems-registration-12427742713"
+      note: ~
+      pdf: ~
+      title: "Hand Pose and Orientation Estimation for Ego-centric Devices"
+    - 
+      authors: "Muhammad Asad, Rilwan Remilekun Basaru, Greg Slabaugh"
+      date: ~
+      event: "BCS Invited Talk, London"
+      event_url: "http://www.londoncentral.bcs.org/events/past-events.php"
+      note: ~
+      pdf: ~
+      title: "Grasping the virtual, how our hands reach into and manipulate the virtual world"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "5th Annual Postgraduate Research Symposium, City University London"
+      event_url: "http://www.city.ac.uk/about/education/lead/events/rs"
+      note: ~
+      pdf: ~
+      title: "Hand Pose and Orientation Regression For Mobile Devices"
+  year: 2015
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "First International Conference on Augmented and Virtual Reality (AVR), Lecce, Italy"
+      event_url: "http://www.salentoavr.it/salento-avr-2014/"
+      note: ~
+      pdf: ~
+      title: "Hand Orientation Regression using Random Forest for Augmented Reality"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "5th BCS Doctoral Consortium, London"
+      event_url: "http://www.londoncentral.bcs.org/events/past-events.php"
+      note: ~
+      pdf: ~
+      title: "Hand Pose Orientation Regression Using Random Forest"
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "City Informatics PhD Symposium, City University London"
+      event_url: "http://www.city.ac.uk/machine-learning"
+      note: ~
+      pdf: ~
+      title: "Hand Pose Orientation Regression Using Random Forest"
+  year: 2014
+- 
+  talks: 
+    - 
+      authors: "Muhammad Asad, Greg Slabaugh"
+      date: ~
+      event: "3rd Annual Postgraduate Research Symposium, City University London"
+      event_url: "http://www.city.ac.uk/about/education/lead/events/rs"
+      note: ~
+      pdf: ~
+      title: "Kinect Depth Map Inpainting"
+  year: 2013

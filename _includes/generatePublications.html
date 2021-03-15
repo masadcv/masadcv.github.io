@@ -1,0 +1,48 @@
+<section id="publications" class="cvSection">
+    <!--<h2 class="sub-header">Publications</h2>-->
+    <ul class="pt-list publication-list">
+    {% for year in site.data.publications %}
+        <li>
+            <h3>{{ year.year }}</h3>
+            <ul>
+            {% for publication in year.publications %}
+                <li>
+                    <h4>
+                        {% if publication.title %}
+                            "{{ publication.title }}"
+                        {% endif %}
+                    </h4>
+                    <h5>
+                        {% if publication.authors %}
+                            {{ publication.authors }}
+                        {% endif %}
+                    </h5>
+                    <p class="publication">
+                        {% if publication.journal %}
+                            {{ publication.journal }}
+                        {% endif %}
+                    </p>
+                    <h4 class="publication">
+                        {% if publication.note %}
+                            {{ publication.note }}
+                        {% endif %}
+                    </h4>
+                    {% if publication.href %}
+                        <a class="button" href="{{ publication.href }}" target="_blank">View</a>
+                    {% endif %}
+                    {% if publication.pdf %}
+                        <a class="button" href="{{ publication.pdf }}" target="_blank">PDF</a>
+                    {% endif %}
+                    {% if publication.bib %}
+                        <a class="button" href="{{ publication.bib }}" target="_blank">Bib</a>
+                    {% endif %}
+					{% if publication.poster %}
+                        <a class="button" href="{{ publication.poster }}" target="_blank">Poster</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

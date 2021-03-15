@@ -1,0 +1,23 @@
+# - title: "Research"
+#   href: "/research/"
+
+- title: "Publications"
+  href: "/publications/"
+
+# - title: "News"
+#   href: "/news/"
+
+#- title: "Teaching"
+#  href: "/teaching/"
+
+- title: "Experience"
+  href: "/experience/"
+
+#- title: "Talks"
+#  href: "/talks/"
+
+# - title: "Code"
+#   href: "/code/"
+
+- title: "Blog"
+  href: "https://adeeplearner.github.io"

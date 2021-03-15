@@ -1,0 +1,168 @@
+- year: 2020
+  publications:
+    - authors: "Muhammad Asad, Rilwan Remilekun Basaru, S M Masudur Rahman Al-Arif, Greg Slabaugh"
+      title: "PROPEL: Probabilistic Parametric Regression Loss for Convolutional Neural Networks"
+      journal: "International Conference on Pattern Recognition (ICPR) 2020"
+      href: "https://www.youtube.com/watch?v=u2oHAVJ50OU"
+      bib:
+      pdf: "/papers/pdf/ICPR2020PROPEL.pdf"
+      note: "Best Industry Related Paper Award Winner"
+      poster: "/papers/poster/ICPR2020PROPEL.pdf"
+    - authors: "Atif Riaz, Muhammad Asad, Eduardo Alonso, Greg Slabaugh"
+      title: "DeepFMRI: End-to-end deep learning for functional connectivity and classification of ADHD using fMRI"
+      journal: "Journal of Neuroscience Methods (NSM) 2020"
+      href:
+      bib:
+      pdf: "/papers/pdf/NSMDeepFMRI2020.pdf"
+      note:
+      poster:
+- year: 2018
+  publications:
+    - authors: "Sophia Bano, Muhammad Asad, Ahmed E. Fetit, Islem Rekik"
+      title: "XmoNet: A Fully Convolutional Network for Cross-Modality MR Image Inference"
+      journal: "MICCAI International Workshop on PRedictive Intelligence In MEdicine (PRIME) 2018"
+      href:
+      bib:
+      pdf: "/papers/pdf/MICCAIW2018Xmonet.pdf"
+      note:
+      poster:
+    - authors: "Atif Riaz, Muhammad Asad, S M Masudur Rahman Al-Arif, Eduardo Alonso, Danai Dima, Philip Corr, Greg Slabaugh"
+      title: "Deep FMRI: An end-to-end deep network for classification of fMRI data"
+      journal: "International Symposium on Biomedical Imaging (ISBI) 2018"
+      href:
+      bib:
+      pdf:
+      note:
+      poster:
+- year: 2017
+  publications:
+    - authors: "Muhammad Asad"
+      title: "Efficient Hand Orientation and Pose Estimation For Uncalibrated Cameras"
+      journal: "Thesis for Doctor of Philosophy (PhD)"
+      href: "http://openaccess.city.ac.uk/17943/1/Asad%2C%20Muhammad_Modified.pdf"
+      bib:
+      pdf: 
+      note:
+      poster:
+    - authors: "Muhammad Asad, Greg Slabaugh"
+      title: "SPORE: Staged Probabilistic Regression for Hand Orientation Inference"
+      journal: "Computer Vision and Image Understanding (CVIU) 2017"
+      href:
+      bib:
+      pdf: "/papers/pdf/CVIU2017SPORE_Regression.pdf"
+      note:
+      poster:
+    - authors: "Atif Riaz, Muhammad Asad, S M Masudur Rahman Al Arif, Eduardo Alonso, Danai Dima, Philip Corr and Greg Slabaugh"
+      title: "FCNet: A Convolutional Neural Network for Calculating Functional Connectivity from functional MRI"
+      journal: "MICCAI 1st International Workshop on Connectomics in NeuroImaging (CNI) 2017"
+      href:
+      bib:
+      pdf: 
+      note:
+      poster:
+    - authors: "Atif Riaz, Muhammad Asad, Eduardo Alonso, Philip Corr and Greg Slabaugh"
+      title: "Fusion of fMRI and Non-Imaging Data for ADHD Classiﬁcation"
+      journal: "Computerized Medical Imaging and Graphics (Elsevier Journal) 2017"
+      href:
+      bib:
+      pdf: 
+      note:
+      poster:	  
+    - authors: "S M Masudur Rahman Al Arif, Muhammad Asad, Michael Gundry, Karen Knapp, Greg Slabaugh"
+      title: "Patch-based Corner Detection for Cervical Vertebrae in X-ray Images"
+      journal: "Signal Processing: Image Communication (Elsevier Journal) 2017"
+      href:
+      bib:
+      pdf: 
+      note:
+      poster:
+    - authors: "Anfisa Lazareva, Muhammad Asad, Greg Slabaugh"
+      title: "Learning to Deblur Adaptive Optics Retinal Images"
+      journal: "International Conference on Image Analysis and Recognition (ICIAR) 2017"
+      href:
+      bib:
+      pdf: 
+      note:
+      poster:
+    - authors: "Nathan Olliverre, Muhammad Asad, Guang Yang, Franklyn Howe, Greg Slabaugh"
+      title: "Pairwise Mixture Model for Unmixing Partial Volume Effect in Multi-voxel MR Spectroscopy of Brain Tumour Patients"
+      journal: "SPIE Medical Imaging 2017"
+      href:
+      bib:
+      pdf: 
+      note:
+      poster:
+- year: 2016
+  publications:
+    - authors: "Muhammad Asad, Greg Slabaugh"
+      title: "Learning Marginalization through Regression for Hand Orientation Inference"
+      journal: "Computer Vision and Pattern Recognition (CVPR) Second Workshop on Observing and Understanding Hands in Action (HANDS) 2016"
+      href:
+      bib:
+      pdf: "/papers/pdf/CVPRW2016LearningMarginalization.pdf"
+      note: "Best Paper Award Winner"
+      poster: "/papers/poster/CVPRW2016LearningMarginalization.pdf"
+    - authors: "Muhammad Asad, Guang Yang, Greg Slabaugh"
+      title: "Supervised Partial Volume Effect Unmixing for Brain Tumor Characterization using Multi-voxel MR Spectroscopic Imaging"
+      journal: "International Symposium on Biomedical Imaging (ISBI) 2016"
+      href:
+      bib:
+      pdf: "/papers/pdf/ISBI2016BrainTumor.pdf"
+      note:
+      poster: "/papers/poster/ISBI2016BrainTumor.pdf"
+- year: 2015
+  publications:
+    - authors: "S M Masudur Rahman Al-Arif, Muhammad Asad, Karen Knapp, Michael Gundry and Greg Slabaugh"
+      journal: "International Conference on Image Processing Theory, Tools and Applications (IPTA) 2015"
+      title: "Cervical Vertebral Corner Detection using Haar-like Features and Modified Hough Forest"
+      href: "http://dx.doi.org/10.1109/IPTA.2015.7367179"
+      bib: "/papers/bib/IPTA2015CervicalCorners.bib"
+      pdf: "/papers/pdf/IPTA2015CervicalCorners.pdf"
+      note:
+      poster:
+    - authors: "S M Masudur Rahman Al-Arif, Muhammad Asad, Karen Knapp, Michael Gundry, Andy Appelboam, Adam Reuben, Greg Slabaugh"
+      title: "Hough Forest-based Corner Detection for Cervical Spine Radiographs"
+      journal: "Medical Image Understanding and Analysis (MIUA) 2015"
+      href: "http://openaccess.city.ac.uk/id/eprint/12276"
+      bib: "/papers/bib/MIUA2015HoughForest.bib"
+      pdf: "/papers/pdf/MIUA2015HoughForest.pdf"
+      note:
+      poster:
+    - authors: "Muhammad Asad, Enguerrand Gentet, Rilwan Remilekun Basaru, Greg Slabaugh"
+      title: "Generating a 3D Hand Model from Frontal Color and Range Scans"
+      journal: "International Conference on Image Processing (ICIP) 2015"
+      href: "http://openaccess.city.ac.uk/id/eprint/12277"
+      bib: "/papers/bib/ICIP2015Hand.bib"
+      pdf: "/papers/pdf/ICIP2015Hand.pdf"
+      note:
+      poster: "/papers/poster/ICIP2015Hand.pdf"
+- year: 2014
+  publications:
+    - authors: "Muhammad Asad, Greg Slabaugh"
+      title: "Hand Orientation Regression using Random Forest for Augmented Reality"
+      journal: "First International Conference on Augmented and Virtual Reality (AVR) 2014"
+      href: "http://link.springer.com/chapter/10.1007/978-3-319-13969-2_13"
+      bib: "/papers/bib/AVR2014HandOrientationRandomForest.bib"
+      pdf: "/papers/pdf/AVR2014HandOrientationRandomForest.pdf"
+      note:
+      poster:
+- year: 2013
+  publications:
+    - authors: "Muhammad Asad, Charith Abhayaratne"
+      title: "Kinect Depth Stream Pre-processing for Hand Gesture Recognition"
+      journal: "International Conference on Image Processing (ICIP) 2013"
+      href: "http://dx.doi.org/10.1109/ICIP.2013.6738770"
+      bib: "/papers/bib/ICIP2013PreprocessDepthHand.bib"
+      pdf: "/papers/pdf/ICIP2013PreprocessDepthHand.pdf"
+      note:
+      poster:
+- year: 2012
+  publications:
+    - authors: "Muhammad Asad, Waseem Ikram"
+      title: "Smartphone based Guidance System for Visually Impaired Person"
+      journal: "International Conference on Image Processing Theory, Tools and Applications (IPTA) 2012"
+      href: "http://dx.doi.org/10.1109/IPTA.2012.6469553"
+      bib: "/papers/bib/IPTA2012_GSVI.bib"
+      pdf: "/papers/pdf/IPTA2012_GSVI.pdf"
+      note:
+      poster:

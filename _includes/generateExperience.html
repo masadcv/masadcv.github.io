@@ -1,0 +1,37 @@
+<section id="experience" class="cvSection">
+    <!--<h2 class="sub-header">Publications</h2>-->
+    <ul class="pt-list publication-list">
+    {% for idx in site.data.experience %}
+        <li>
+            <!--<h3>{{ idx.idx }}</h3>-->
+            <ul>
+            {% for job in idx.jobs %}
+                <li>
+                    <h2>
+                        {% if job.title %}
+                            {{ job.title }}
+                        {% endif %}
+                    </h2>
+                    <h5>
+                        {% if job.organization %}
+                            {{ job.organization }}
+                        {% endif %}
+                    </h5>
+                    <p class="publication">
+                        {% if job.duration %}
+                            {{ job.duration }}
+                        {% endif %}
+                    </p>
+                    <h5 class="publication">
+                        {% if job.duties %}
+                            {{ job.duties }}
+                        {% endif %}
+                    </h5>
+
+                </li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,32 @@
+# Site settings
+title: Muhammad Asad
+#email: #Muhammad.Asad.2-at-city.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+#  Room: A304
+#  <br>Turing Space
+#  <br>Department of Computer Science
+#  <br>City University London
+#  <br>EC1V 0HB
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://masadcv.github.io" # the base hostname & protocol for your site
+#github_username:  masadcv
+google_scholar: "https://scholar.google.co.uk/citations?user=SUS0SHIAAAAJ&hl=en"
+linkedin_profile: "https://www.linkedin.com/in/masadcv"
+
+# Build settings
+markdown: kramdown
+
+permalink: /blog:year/:month/:title
+
+# Other options
+jobtitle: "Senior Research Engineer II"
+# telephone: ""
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+
+preview_news_limit: 5

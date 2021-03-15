@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="header-bar">
+  <h1>News</h1>
+  <!-- <h2>{{ site.blog_description }}</h2> -->
+</div>
+
+<div class="news">
+    <!--<h2>News</h2>-->
+    {% if site.news  %}
+      <table>
+      <!--<td colspan="2" ><hr style="border-top: 1px"/></td>-->
+      {% assign news = site.news | reverse %}
+      {% for item in news %}
+        <!-- {% capture y %}{{item.date | date:"%Y"}}{% endcapture %}
+          {% if year != y %}
+            {% assign year = y %}
+            <tr>
+              <td><h3>{{ y }}</h3></td>
+              <td> </td>
+            </tr>
+          {% endif %} -->
+        <tr>
+          <td class="date" nowrap="nowrap">{{ item.date | date: "%b %-d, %Y" }}</td>
+          <td class="announcement" style="padding-left: 20px;">
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
+        </tr>
+        <!--<td colspan="2" ><hr style="border-top: 1px"/></td>-->
+        {% endfor %}
+      </table>
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+  </div>
+<!-- 
+  <ul class="listing">
+    {% if site.news %}
+    {% assign news = site.news | reverse %}
+    {% for post in news %}
+      {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+      {% if year != y %}
+        {% assign year = y %}
+        <li class="listing-seperator">{{ y }}</li>
+      {% endif %}
+      <table>
+        <li class="listing-item">
+          <td class="date" ><time datetime="{{ post.date | date:"%b %-d, %Y" }}">{{ post.date | date:"%b %-d, %Y" }}</time></td>
+          <td class="announcement" style="padding-left: 20px;">
+            {% if post.inline %}
+              {{ post.content | remove: '<p>' | remove: '</p>' }}
+            {% else %}
+              <a href="{{ post.url }}"title="{{ post.title }}">{{ post.title }}</a>
+            {% endif %}
+          </td>
+      </table>
+    {% endfor %}
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+    </ul> -->

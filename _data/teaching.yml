@@ -1,0 +1,22 @@
+- type: "Teaching Certification"
+  items:
+    - title: "Introductory Certificate in Teaching in Higher Education, UK"
+      organization: "City, University of London"
+      duration: "October 2015"
+- type: "Teaching Experience"
+  items:
+    - title: "Visiting Hourly Paid Lecturer (VHPL)"
+      organization: "City, University of London"
+      duration: "February 2013 - June 2017 (4 years and 5 months)"
+- type: "Teaching Assistant"
+  items:
+    - title: "Principles of Data Science (MSc Module)"
+      organization: "City, University of London"
+      duration: "Spring 2015"
+    - title: "Networks and Operating Systems"
+      organization: "City, University of London"
+      duration: "Fall 2015"
+    - title: "Programming in Java"
+      organization: "City, University of London"
+      duration: "Fall 2013"
+
