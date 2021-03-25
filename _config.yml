@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 #  <br>EC1V 0HB
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://masadcv.github.io" # the base hostname & protocol for your site
-#github_username:  masadcv
+# github_username:  masadcv
 google_scholar: "https://scholar.google.co.uk/citations?user=SUS0SHIAAAAJ&hl=en"
 linkedin_profile: "https://www.linkedin.com/in/masadcv"
 
@@ -19,7 +19,7 @@ markdown: kramdown
 permalink: /blog:year/:month/:title
 
 # Other options
-jobtitle: "Senior Research Engineer II"
+jobtitle: "Research Fellow"
 # telephone: ""
 
 collections:
