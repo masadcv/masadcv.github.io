@@ -1,3 +1,13 @@
+- year: 2022
+  publications:
+    - authors: "Muhammad Asad, Lucas Fidon, Tom Vercauteren"
+      title: "ECONet: Efficient Convolutional Online Likelihood Network for Scribble-based Interactive Segmentation"
+      journal: "Medical Imaging with Deep Learning (MIDL) 2022"
+      href: "https://arxiv.org/pdf/2201.04584.pdf"
+      bib:
+      pdf: 
+      note: 
+      poster: 
 - year: 2020
   publications:
     - authors: "Muhammad Asad, Rilwan Remilekun Basaru, S M Masudur Rahman Al-Arif, Greg Slabaugh"
