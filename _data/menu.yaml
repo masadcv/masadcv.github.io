@@ -16,8 +16,9 @@
 #- title: "Talks"
 #  href: "/talks/"
 
-# - title: "Code"
-#   href: "/code/"
+- title: "Code"
+  href: "https://github.com/masadcv"
+  # href: "/code/"
 
 - title: "Blog"
   href: "https://adeeplearner.github.io"
