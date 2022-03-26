@@ -29,4 +29,4 @@ collections:
     output: true
     permalink: /news/:path/
 
-preview_news_limit: 8
+preview_news_limit: 10
