@@ -1,13 +1,5 @@
 - year: 2022
   publications:
-    - authors: "Andres Diaz-Pinto, Sachidanand Alle, Alvin Ihsani, Muhammad Asad, Vishwesh Nath, Fernando Perez-Garcia, Pritesh Mehta, Wenqi Li, Holger R Roth, Tom Vercauteren, Daguang Xu, Prerna Dogra, Sebastien Ourselin, Andrew Feng, M. Jorge Cardoso"
-      title: "MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images"
-      journal: "Submitted to Medical Image Analysis (MEDIA)"
-      href: "https://arxiv.org/pdf/2203.12362.pdf"
-      bib:
-      pdf: 
-      note: 
-      poster:
     - authors: "Muhammad Asad, Lucas Fidon, Tom Vercauteren"
       title: "ECONet: Efficient Convolutional Online Likelihood Network for Scribble-based Interactive Segmentation"
       journal: "Medical Imaging with Deep Learning (MIDL) 2022"
