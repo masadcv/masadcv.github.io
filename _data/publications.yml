@@ -2,7 +2,7 @@
   publications:
     - authors: "Muhammad Asad, Reuben Dorrent, Tom Vercauteren"
       title: "FastGeodis: Fast Generalised Geodesic Distance Transform"
-      journal: "Ubder review at The Journal of Open Source Software (JOSS) 2022"
+      journal: "Under review at The Journal of Open Source Software (JOSS) 2022"
       href: "https://arxiv.org/pdf/2208.00001.pdf"
       bib:
       pdf: 
@@ -10,7 +10,7 @@
       poster: 
     - authors: "Andres Diaz-Pinto, Sachidanand Alle, Alvin Ihsani, Muhammad Asad, Vishwesh Nath, Fernando Perez-Garcia, Pritesh Mehta, Wenqi Li, Holger R Roth, Tom Vercauteren, Daguang Xu, Prerna Dogra, Sebastien Ourselin, Andrew Feng, M. Jorge Cardoso"
       title: "MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images"
-      journal: "Submitted to Medical Image Analysis (MEDIA)"
+      journal: "Under review at Medical Image Analysis (MEDIA)"
       href: "https://arxiv.org/pdf/2203.12362.pdf"
       bib:
       pdf: 
