@@ -1,5 +1,13 @@
 - year: 2022
   publications:
+    - authors: "Navodini Wijethilake, Aaron Kujawa, Reuben Dorrent, Muhammad Asad, Anna Oviedova, Tom Vercauteren, Jonathan Shapey"
+      title: "Boundary Distance Loss for Intra-/Extra-meatal Segmentation of Vestibular Schwannoma"
+      journal: "MICCAI International Workshop on Machine Learning in Clinical Neuroimaging (MLCN) 2022"
+      href:
+      bib:
+      pdf: "https://arxiv.org/pdf/2208.04680.pdf"
+      note: 
+      poster: 
     - authors: "Muhammad Asad, Reuben Dorrent, Tom Vercauteren"
       title: "FastGeodis: Fast Generalised Geodesic Distance Transform"
       journal: "Under review at The Journal of Open Source Software (JOSS) 2022"
