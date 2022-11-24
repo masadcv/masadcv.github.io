@@ -1,19 +1,27 @@
 - year: 2022
   publications:
+    - authors: "Muhammad Asad, Reuben Dorrent, Tom Vercauteren"
+      title: "FastGeodis: Fast Generalised Geodesic Distance Transform"
+      journal: "Journal of Open Source Software (JOSS) 2022"
+      href: "https://github.com/masadcv/FastGeodis"
+      bib:
+      pdf: "https://joss.theoj.org/papers/10.21105/joss.04532"
+      note: 
+      poster: 
+    - authors: "Andres Diaz-Pinto, Pritesh Mehta, Sachidanand Alle, Muhammad Asad, Richard Brown, Vishwesh Nath, Alvin Ihsani, Michela Antonelli, Daniel Palkovics, Csaba Pinter, others"
+      title: "DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images"
+      journal: "MICCAI Workshop on Data Augmentation, Labelling, and Imperfections (DALI) 2022"
+      href: "https://link.springer.com/chapter/10.1007/978-3-031-17027-0_2"
+      bib:
+      pdf:
+      note: 
+      poster: 
     - authors: "Navodini Wijethilake, Aaron Kujawa, Reuben Dorrent, Muhammad Asad, Anna Oviedova, Tom Vercauteren, Jonathan Shapey"
       title: "Boundary Distance Loss for Intra-/Extra-meatal Segmentation of Vestibular Schwannoma"
       journal: "MICCAI International Workshop on Machine Learning in Clinical Neuroimaging (MLCN) 2022"
       href:
       bib:
       pdf: "https://arxiv.org/pdf/2208.04680.pdf"
-      note: 
-      poster: 
-    - authors: "Muhammad Asad, Reuben Dorrent, Tom Vercauteren"
-      title: "FastGeodis: Fast Generalised Geodesic Distance Transform"
-      journal: "Under review at The Journal of Open Source Software (JOSS) 2022"
-      href: "https://github.com/masadcv/FastGeodis"
-      bib:
-      pdf: "https://arxiv.org/pdf/2208.00001.pdf"
       note: 
       poster: 
     - authors: "Andres Diaz-Pinto, Sachidanand Alle, Alvin Ihsani, Muhammad Asad, Vishwesh Nath, Fernando Perez-Garcia, Pritesh Mehta, Wenqi Li, Holger R Roth, Tom Vercauteren, Daguang Xu, Prerna Dogra, Sebastien Ourselin, Andrew Feng, M. Jorge Cardoso"
