@@ -1,3 +1,21 @@
+- year: 2023
+  publications:
+    - authors: "Muhammad Asad, Helena Williams, Indrajeet Mandal, Sarim Ather, Jan Deprest, Jan D'hooge, Tom Vercauteren"
+      title: "Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation"
+      journal: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2023"
+      href: "https://github.com/masadcv/MONet-MONAILabel"
+      bib:
+      pdf: "https://arxiv.org/pdf/2303.13696.pdf"
+      note: 
+      poster: 
+    - authors: "Peichao Li, Muhammad Asad, Conor Horgan, Oscar MacCormac, Jonathan Shapey, Tom Vercauteren"
+      title: "Spatial gradient consistency for unsupervised learning of hyperspectral demosaicking: application to surgical imaging"
+      journal: "International Journal of Computer Assisted Radiology and Surgery 2023"
+      href: "https://link.springer.com/article/10.1007/s11548-023-02865-7"
+      bib:
+      pdf:
+      note: 
+      poster: 
 - year: 2022
   publications:
     - authors: "Muhammad Asad, Reuben Dorrent, Tom Vercauteren"
