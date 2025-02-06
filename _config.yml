@@ -19,7 +19,7 @@ markdown: kramdown
 permalink: /blog:year/:month/:title
 
 # Other options
-jobtitle: "Research Fellow"
+jobtitle: "Senior AI/Data Scientist"
 # telephone: ""
 
 collections:
