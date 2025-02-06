@@ -2,7 +2,8 @@
 #   href: "/research/"
 
 - title: "Publications"
-  href: "/publications/"
+  href: "https://scholar.google.co.uk/citations?user=SUS0SHIAAAAJ&hl=en"
+  # href: "/publications/"
 
 # - title: "News"
 #   href: "/news/"
@@ -11,7 +12,8 @@
 #  href: "/teaching/"
 
 - title: "Experience"
-  href: "/experience/"
+  href: "https://www.linkedin.com/in/masadcv"
+  # href: "/experience/"
 
 #- title: "Talks"
 #  href: "/talks/"
@@ -20,5 +22,5 @@
   href: "https://github.com/masadcv"
   # href: "/code/"
 
-- title: "Blog"
-  href: "https://adeeplearner.github.io"
+# - title: "Blog"
+#   href: "https://adeeplearner.github.io"
